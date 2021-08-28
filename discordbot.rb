@@ -7,6 +7,7 @@ TOKEN.freeze
 
 bot = Discordrb::Commands::CommandBot.new token: TOKEN, prefix: '/'
 
+
 bot.command(:ping) do |event|
   event.respond 'pong'
 end
